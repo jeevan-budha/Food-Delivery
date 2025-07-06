@@ -73,7 +73,11 @@ img {
   margin-top: 4rem;
 }
 
-.mt-half{
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-half {
   margin-top: .5rem;
 }
 
@@ -237,32 +241,35 @@ h3 {
 
 /* section 03 */
 
-.review-container{
+.review-container {
   width: 650px;
   max-width: 100%;
   flex: 1;
 }
+
 .swiper {
   width: 100%;
   height: 100%;
 }
-.profile{
+
+.profile {
   width: 4rem;
   aspect-ratio: 1;
-  border-radius:100vw;
+  border-radius: 100vw;
   overflow: hidden;
 }
-.profile img{
+
+.profile img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.fa-star{
+.fa-star {
   color: var(--gold-finger);
 }
 
-.arrow{
+.arrow {
   width: 2.5rem;
   aspect-ratio: 1;
   border-radius: 100vw;
@@ -270,6 +277,28 @@ h3 {
   color: var(--lead);
   text-align: center;
   line-height: 2.5rem;
+}
+
+/* section 04 */
+
+.app-container {
+  background: var(--hint-yellow);
+  padding: 3rem 6rem;
+  border-radius: 3rem;
+
+}
+
+.app-container h2 {
+  font-size: 4.5rem;
+}
+
+.app-container .image-container img {
+  width: 25rem;
+}
+
+.para {
+  line-height: 1.5rem;
+  color: gray;
 }
 
 /* footer stylinh */
@@ -338,6 +367,16 @@ h3 {
 
   h2 {
     font-size: 3rem;
+  }
+
+  /* section 04 */
+  .app-container {
+    padding: 2.2rem;
+
+  }
+
+  .app-container .content h2 {
+    font-size: 3.5rem;
   }
 
 }

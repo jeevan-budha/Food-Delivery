@@ -73,6 +73,10 @@ img {
   margin-top: 4rem;
 }
 
+.mt-auto {
+  margin: auto;
+}
+
 .mt-2 {
   margin-top: 2rem;
 }
@@ -299,6 +303,32 @@ h3 {
 .para {
   line-height: 1.5rem;
   color: gray;
+}
+
+/* section 05 */
+
+.input-container {
+  width: 43rem;
+  max-width: 100%;
+  background-color: var(--pure-white);
+  padding: .8rem;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+
+}
+
+input[type="email"] {
+  flex: 1;
+  height: 7vh;
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+
+}
+
+input[type="email"]:focus {
+  outline: none;
 }
 
 /* footer stylinh */

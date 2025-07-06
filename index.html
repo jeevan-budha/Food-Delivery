@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -130,13 +131,100 @@
         </div>
       </div>
     </section>
+
+    <section>
+      <div class="wrapper p-top flex gap-3">
+        <div class="image-container">
+          <img src="./Images/delivery-boy-with-phone.png" alt="">
+        </div>
+
+        <div class="content">
+          <h5>our review</h5>
+          <h2>What they Say?</h2>
+          <div class="review-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper mt-4">
+                <div class="swiper-slide">
+                  <div class="flex gap-2">
+                    <div class="profile">
+                      <img src="./Images/profile1.jpeg" alt="">
+                    </div>
+                    <div>
+                      <h4>Akash Budha</h4>
+                      <div class="mt-half">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="para">Foodie is thr best. Besides the many delicipus
+                    the service is also very goos, especially very edlivery.
+                    I highly recommend Foodie to you.
+                  </p>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="flex gap-2">
+                    <div class="profile">
+                      <img src="./Images/profile2.jpeg" alt="">
+                    </div>
+                    <div>
+                      <h4>Sumitra Sharma</h4>
+                      <div class="mt-half">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="para">
+                    Best and fast food for ever.
+                  </p>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="flex gap-2">
+                    <div class="profile">
+                      <img src="./Images/profile3.jpeg" alt="">
+                    </div>
+                    <div>
+                      <h4>Alisha Budha</h4>
+                      <div class="mt-half">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="para">Foodie is thr best. Besides the many delicipus
+                    the service is also very good.
+                  </p>
+                </div>
+              </div>
+            <div class="flex between">
+              <a href="#" class="arrow" id="prev">
+                <i class="fa-solid fa-arrow-left"></i>
+              </a>
+               <a href="#" class="arrow" id="next">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- footer part -->
   <footer>
 
   </footer>
-  <script src="app.js"></script>
+  <script src="app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>

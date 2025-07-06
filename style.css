@@ -73,6 +73,10 @@ img {
   margin-top: 4rem;
 }
 
+.mt-half{
+  margin-top: .5rem;
+}
+
 /* header styling */
 .navbar {
   min-height: 14vh;
@@ -229,6 +233,43 @@ h3 {
 .card-image img {
   width: 15rem;
   filter: drop-shadow(rgba(0, 0, 0, 0.2) 0 10px 10px);
+}
+
+/* section 03 */
+
+.review-container{
+  width: 650px;
+  max-width: 100%;
+  flex: 1;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.profile{
+  width: 4rem;
+  aspect-ratio: 1;
+  border-radius:100vw;
+  overflow: hidden;
+}
+.profile img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fa-star{
+  color: var(--gold-finger);
+}
+
+.arrow{
+  width: 2.5rem;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  background: var(--gold-finger);
+  color: var(--lead);
+  text-align: center;
+  line-height: 2.5rem;
 }
 
 /* footer stylinh */

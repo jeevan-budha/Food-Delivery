@@ -259,6 +259,7 @@ h3 {
   align-items: center;
   z-index: 99;
   box-shadow: rgba(0, 0, 0, 0.1) -10px -10px 20px;
+  transition: .5s ease-in-out;
 }
 
 .cart-tab-active {
@@ -304,14 +305,16 @@ h3 {
 .item {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap:1rem;
   padding: .7rem 1rem;
 }
 
 .cart-list .item:nth-child(even) {
   background: var(--eye-ball);
 }
-
+.item .detail{
+  flex:2;
+}
 .item .item-image img {
   width: 5rem;
 }

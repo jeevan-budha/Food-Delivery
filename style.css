@@ -307,6 +307,11 @@ h3 {
   align-items: center;
   gap:1rem;
   padding: .7rem 1rem;
+  transition: all .5s ease-in-out;
+}
+
+.item .slide-out{
+  transform: translateX(50%);
 }
 
 .cart-list .item:nth-child(even) {
